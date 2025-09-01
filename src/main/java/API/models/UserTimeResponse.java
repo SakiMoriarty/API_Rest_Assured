@@ -1,9 +1,9 @@
-package API;
+package API.models;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class UserTimeResponse extends UserTime{
+public class UserTimeResponse extends UserTime {
     private final String updatedAt;
 
     @JsonCreator
